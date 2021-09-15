@@ -39,12 +39,19 @@ People often post about their likes and dislikes on social media. These are not 
 - Dataset Link :- https://www.kaggle.com/jp797498e/twitter-entity-sentiment-analysis
 
 ## Steps for the project
+
   1.Import Libraries
+  
   2.Tweets Mining
+  
   3.Data Cleaning
+  
   4.Location Geocoding
+  
   5.Tweets Processing
+  
   6.Data Exploration
+  
   7.Sentiment Analysis
 
 ## Tweets Processing Steps
