@@ -83,10 +83,10 @@ Regular Expression: (http|https|ftp)://[a-zA-Z0-9\\./]+
 Replace Expression: URL
 
 #### 6:Emoticons
-- Use of emoticons is very prevalent throughout the web, more so on micro- blogging sites. We identify the following emoticons and replace them with a single word. Table 4 lists the emoticons we are currently detecting. All other emoticons would be ignored.
+- Use of emoticons is very prevalent throughout the web, more so on micro- blogging sites. We identify the following emoticons and replace them with a single word lists the emoticons we are currently detecting. All other emoticons would be ignored.
 
 #### 7:Punctuations
-- Although not all Punctuations are important from the point of view of classification but some of these, like question mark, exclamation mark can also provide information about the sentiments of the text. We replace every word boundary by a list of relevant punctuations present at that point. Table 5 lists the punctuations currently identified. We also remove any single quotes that might exist in the text.
+- Although not all Punctuations are important from the point of view of classification but some of these, like question mark, exclamation mark can also provide information about the sentiments of the text. We replace every word boundary by a list of relevant punctuations present at that point  lists the punctuations currently identified. We also remove any single quotes that might exist in the text.
 
 #### 8:Repeating Characters
 - People often use repeating characters while using colloquial language, like "I’m in a hurrryyyyy", "We won, yaaayyyyy!" As our final pre-processing step, we replace characters repeating more than twice as two characters.
