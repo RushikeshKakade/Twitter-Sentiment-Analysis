@@ -120,13 +120,13 @@ Lemmatization is the process of normalizing a word rather than just finding its 
 We create a sentiment classifier for twitter using labelled data sets. We also investigate the relevance of using a RandomForestClassifier,Logistic Regression and Decision Tree Classifier machine learning algorithm and negation detection for the purpose of sentiment analysis.
 
 - In this project our accuracy result is follows :
-   ML Algorithm                              Accuracy
-1. Random_forest_Tfidf_Accuracy	             90.066667
-2. Logistic_Regression_Tfidf_Accuracy	       76.026667
-3. Decision_tree_tfidf_Accuracy	             77.960000
-4. Random_forest_Bow_Accuracy	               89.740000
-5. Logistic_Regression_Bow_Accuracy	         80.046667
-6. Decision_tree_Bow_Accuracy	               80.54666
+   ML Algorithm                         =             Accuracy in percentage
+1. Random_forest_Tfidf_Accuracy	        =             90.066667
+2. Logistic_Regression_Tfidf_Accuracy	  =             76.026667
+3. Decision_tree_tfidf_Accuracy	        =             77.960000
+4. Random_forest_Bow_Accuracy	          =             89.740000
+5. Logistic_Regression_Bow_Accuracy	    =             80.046667
+6. Decision_tree_Bow_Accuracy	          =             80.54666
 
 - From above we can concluded that the Best Model for the "Twitter Sentiment Analysis NLP Project" is 'Random Forest Classifier' and the best vectorization method is "TFIDF Vectorizer" in which the model gives the 90.06 % acuuracy which is higher rhan other Machine learning models there we have use Random Forest Classifier as a best model.
 
